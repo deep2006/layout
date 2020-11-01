@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+
+            </div>
+            <ul class="menu">
+                <li><a href="#showcase">Home</a></li>
+                <li><a href="#food">Food</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#rate-us">Rate us</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <h1 class="logo">BlackPeeper</h1>
+
+        </div>
+    </nav>
+    <section class="showcase-area" id='showcase'>
+        <div class="showcase-container">
+            <h1 class="main-title">Enjoy Delicious Food</h1>
+        <p>Enjoy delicious food in any meal of your day and make it special.</p> 
+        <a href="#food-menu" class='btn btn-primary'>Menu</a>
+        </div>
+    </section>
+    <section id="food">
+        <h2>Type of food</h2>
+        <div class="food-container container">
+            <div class="food-type veg">
+                <div class="img-container">
+                    <img src="veg.jpg" class='img' alt="">
+                    <div class="img-content">
+                        <h3>Vegetarian</h3>
+                        <a href="https://en.wikipedia.org/wiki/List_of_vegetarian_restaurants" class='btn btn-primary' target="_blank">Learn More</a>
+                </div></div>
+            </div>
+            <div class="food-type non-veg">
+                <div class="img-container">
+                    <img src="non-veg.jpg" class='img' alt="">
+                    <div class="img-content">
+                        <h3>Non-Vegeterian</h3>
+                        <a href="https://en.wikipedia.org/wiki/Non-vegetarian" class="btn btn-primary" target="_blank">Learn More</a>
+
+                </div></div>
+            </div>
+            <div class="food-type drinks">
+                <div class="img-container">
+                    <img src="drinks.jpg" class='img' alt="">
+                    <div class="img-content">
+                        <h3>Drinks</h3>
+                        <a href="https://en.wikipedia.org/wiki/Drink"class='btn btn-primary' target="_blank">Learn More</a>
+                    </div></div>
+            </div>
+        </div>
+    </section>
+   <section id='food-menu'>
+       <h1 class='food-menu-heading'>Menu</h1>
+       <div class="food-menu-container container">
+           <div class="food-menu-item box1">
+               <div class="food-img"><img src="burger.jpg" alt=""></div>
+               <div class="food-description">
+                    <h3 class='food-title'>Dish-Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, cupiditate?</p>
+                    <p class="food-price">Price: &#8377; 500</p>
+               </div>
+           </div>
+           <div class="food-menu-item box2">
+               <div class="food-img"><img src="burger.jpg" alt=""></div>
+               <div class="food-description">
+                    <h3 class='food-title'>Dish-Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, cupiditate?</p>
+                    <p class="food-price">Price: &#8377; 500</p>
+               </div>
+           </div>
+           <div class="food-menu-item box1">
+               <div class="food-img"><img src="burger.jpg" alt=""></div>
+               <div class="food-description">
+                    <h3 class='food-title'>Dish-Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, cupiditate?</p>
+                    <p class="food-price">Price: &#8377; 500</p>
+               </div>
+           </div>
+           <div class="food-menu-item box2">
+               <div class="food-img"><img src="burger.jpg" alt=""></div>
+               <div class="food-description">
+                    <h3 class='food-title'>Dish-Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, cupiditate?</p>
+                    <p class="food-price">Price: &#8377; 500</p>
+               </div>
+           </div>
+           <div class="food-menu-item box1">
+               <div class="food-img"><img src="burger.jpg" alt=""></div>
+               <div class="food-description">
+                    <h3 class='food-title'>Dish-Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, cupiditate?</p>
+                    <p class="food-price">Price: &#8377; 500</p>
+               </div>
+           </div>
+           <div class="food-menu-item box2">
+               <div class="food-img"><img src="burger.jpg" alt=""></div>
+               <div class="food-description">
+                    <h3 class='food-title'>Dish-Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, cupiditate?</p>
+                    <p class="food-price">Price: &#8377; 500</p>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section class="rating"id='rate-us'>
+        <div class="rate-main">
+            <h4>If You Like Our Work Then Help Us To Be Better By Rating Us.</h4>
+            <div class="rating-wrapper">
+                <input type="radio" name='rating' id='star-1'><label for="star-1"></label>
+                <input type="radio" name='rating' id='star-2'><label for="star-2"></label>
+                <input type="radio" name='rating' id='star-3'><label for="star-3"></label>
+                <input type="radio" name='rating' id='star-4'><label for="star-4"></label>
+                <input type="radio" name='rating' id='star-5'><label for="star-5"></label>
+            </div>
+        </div>
+   </section>
+   <section id="contact" class="contact-container container">
+       <div class="contact-img"><img src="contact-img.jpg" alt="" ></div>
+      <div class="form-container">
+            <input type="text" name='' id='' placeholder="Name" required>
+            <input type="email" name="" id="" placeholder="E-mail Address" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Type Your Message Here"></textarea>
+            <input type="submit"value='Send' class=' btn btn-primary except'>
+      </div>
+   </section>
+   <footer id='footer'><h6>This is only a dummy website if you like it you can place a order for such a beautyful front-end of website for you and We will make sure that it will hlp you grow your business.<br>You can contact us on fiverr @utsav_hirani and place a order for this kind of website. </h6></footer>
+    
+</body>
+</html>
